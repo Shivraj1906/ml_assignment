@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student performance predictor</title>
+</head>
+<body>
+    <h1>Student performance prediction</h1>
+    <form action="/predict" method="post">
+        <input type="number" name="hours" placeholder="hours studied"><br>
+        <input type="number" name="prev_scores" placeholder="previous scores"><br>
+        <input type="number" name="sleep" placeholder="sleep hours"><br>
+        <input type="number" name="sample" placeholder="question papers solved"><br>
+        <input type="submit" value="predict">
+    </form>
+</body>
+</html>
